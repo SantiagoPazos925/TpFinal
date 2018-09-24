@@ -1,0 +1,135 @@
+.header{
+  padding-top: 15px;
+  background-color:rgb(15, 15, 15);
+
+}
+div .iconos {
+  color: white;
+  font-size: 30px;
+  text-align: right;
+  padding-right: 30px;
+}
+div .iconos i{
+  padding-left: 15px;
+}
+div .logo {
+  display:block;
+  color: white;
+
+}
+div .logo h2{
+  margin-top: 5px;
+  font-size: 25px;
+}
+
+.search {
+  text-align: center;
+  padding-bottom: 15px;
+
+}
+.search .searching{
+padding-right: 0px;
+}
+.search .searching input{
+  text-decoration: none;
+  border-style: none;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  width: 100%;
+  height: 100%;
+
+}
+
+.iconSearch {
+  padding-right: 30px;
+  text-align: center;
+  color:white;
+  font-size: 20px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+
+  background-color: blue;
+}
+::-webkit-input-placeholder {
+   text-align: center;
+}
+.portrait{
+  margin-top:  15px;
+  margin-bottom:  5px;
+  width: 140px;
+  height: 180px;
+  border-radius: 5px;
+  transition:all .5s ease-in-out;
+  filter: saturate(50%);
+
+}
+.portrait:hover {
+  filter: saturate(180%);
+  border: 3px;
+  border-color: rgb(117, 28, 23);
+  border-style:inset;
+}
+.portadasEstrenos{
+
+  margin-left: 5px;
+  margin-right: 5px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.tituloEstreno{
+  text-align: center;
+  background-color:rgb(32, 32, 32);
+  color:white;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  margin-bottom: 20px;
+}
+.estrenos{
+  background-image: url('../images/background.png');
+
+  background-repeat:repeat;
+
+}
+.uno{
+  padding-left: 0px;
+  padding-right: 0px;
+
+}
+.dos{
+  padding-left: 0px;
+}
+.separador{
+  width: 100%;
+  height: 38px;
+  background-color:rgb(32, 32, 32);
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+}
+.precioCarro{
+  text-align: center;
+  color:white;
+  font-size: 25px;
+  margin: 0px;
+  padding: 0px;
+}
+.precio{
+  padding: 0px;
+
+  padding-top: 5px;
+  text-align: center;
+}
+.precio p{
+
+  padding-left: 5px;
+  font-size: 20px;
+
+}
+.carro{
+  padding: 0px;
+}
+.carro i{
+  border: 1px solid white;
+  border-radius: 100%;
+  padding-left: 5px;
+  padding-right:5px;
+}
