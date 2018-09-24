@@ -11,6 +11,7 @@
     <title></title>
   </head>
   <body>
+    hola
     <?php
     include("header.php");
     include("carousel.php");
